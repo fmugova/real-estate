@@ -1,8 +1,9 @@
+import type { Metadata } from 'next'
 import './globals.css'
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Real Estate',
-  description: 'Landing page for Real Estate SaaS',
+  description: 'Created with BuildFlow',
 }
 
 export default function RootLayout({
